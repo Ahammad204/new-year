@@ -3,15 +3,20 @@
     margin: 0px;
 }
 
+
+
 /* Header section style */
+
+
 .head-container{
     display: flex;
     justify-content: flex-end;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     text-align: right;
-    height: 100vh;
+    height: auto;
 
 }
 .content{
@@ -35,5 +40,35 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 300px;
+}
 
+
+/* Failure Section style */
+
+.failure-container{
+    display: flex;
+    margin-top: 70px;
+   
+}
+.failure-description{
+   align-items: center;
+   margin-left: 190px;
+  margin-top: 250px;
+}
+.failure-img>img{
+    margin-right: 40px;
+    
+}
+.failure-description>h1{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.failure-description>p{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.failure-list>li {
+    margin-bottom: 6px;
+    margin-left: 15px;
 }
